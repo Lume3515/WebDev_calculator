@@ -1,0 +1,31 @@
+.MainBG{
+    width: 1600px;
+    height: 800px;    
+    margin: auto;
+    
+    background-color: black;
+}
+
+.Box{
+    width: 200px;
+    height: 150px;        
+    font-size: 50px;
+    background-color: gray;
+    /* flex 모드를 맞춰준다고 함 */
+    display: flex;
+    /* justify-content : 좌우 / align-items : 상하 */
+    justify-content: center; align-items: center;
+}
+
+.Result{
+    width: 700px;
+    height: 150px;
+    background-color: gray;
+    bottom: 605px;
+    position: absolute;
+    right: 210px;
+
+    display: flex;
+    font-size: 45px;
+    justify-content: center; align-items: center;
+}
